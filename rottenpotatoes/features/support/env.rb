@@ -37,6 +37,9 @@ rescue NameError
 end
 
 # You may also want to configure DatabaseCleaner to use different strategies for certain features and scenarios.
+require 'simplecov'
+SimpleCov.start 'rails'
+
 # See the DatabaseCleaner documentation for details. Example:
 #
 #   Before('@no-txn,@selenium,@culerity,@celerity,@javascript') do
